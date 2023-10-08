@@ -1,0 +1,125 @@
+/* .login{
+ background-color: rgba(214, 163, 163, 0);
+ border:1px solid rgb(199, 218, 200);
+ padding: 25px 25px;
+ width: 200px;
+ opacity: 0.8;
+ border-radius: 6px;
+
+
+ 
+}
+.user input{
+   background: rgba(231, 230, 231, 0);
+   padding: 7px 5px;
+   width: auto;
+   border-radius: 2px;
+   border-color: rgb(177, 172, 167);
+  
+}
+.user button{
+    background: rgba(231, 95, 77, 0);
+    padding :5px 10px;
+    
+    justify-content: center;
+    align-items: center;
+    opacity: 0.8;
+}
+
+.l1{
+    
+   display: flex;
+   justify-content: center;
+  margin-top: 200px;
+
+    
+}
+body{
+    background-image: url(https://e0.pxfuel.com/wallpapers/588/667/desktop-wallpaper-simple-plain-pink-background-paperpull-plain-red.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+button:hover{
+    background-color: rgb(194, 202, 200);
+   
+}
+ input[type="submit"]{
+    padding: 3px;
+    border-radius: 5px;
+    color:rgba(212, 231, 212, 0);
+    text-decoration:dotted; 
+    background-color: rgba(197, 181, 181, 0);
+ }
+ input[type="Username"]:hover , input[type="password"]:hover{
+    background-color: rgb(216, 236, 231);
+}
+input[type="checkbox"]:hover{
+    background-color: rgba(206, 190, 190, 0);
+} */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(https://media.istockphoto.com/id/1071588902/photo/abstract-blurred-gradient-background-in-bright-colors-colorful-smooth-illustration.webp?b=1&s=170667a&w=0&k=20&c=7xE95vYr-sUKZMS3p-JyM1fheZVQs3DqpoGgc51yamw=);
+    background-size: cover;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+.login-form {
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input:hover{
+    background-color: 	rgb(255, 182, 193);
+}
+
+button {
+    background-color: #ce4cc794;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2be7a8;
+}
+
+.error-message {
+    color: #d81616c0;
+    margin-top: 10px;
+}
